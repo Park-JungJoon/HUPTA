@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Human Pan Transcriptome Atlas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        #header {
+            background-color: #66A3D2; /* Lighter color for header */
+            color: white;
+            padding: 10px;
+            display: flex;
+            align-items: center;
+        }
+        #logo {
+            width: =100px;
+            height: 100px;
+            margin-right: 10px;
+        }
+        #title {
+            text-align: center;
+            color: white; /* Title color changed to white */
+            font-weight: bold;
+	    font-size: 40px;
+        }
+        #separator {
+            border-top: 1px solid lightgray;
+            margin: 10px 0;
+        }
+        #description {
+            color: gray;
+            text-align: center; /* Center-align the description */
+            font-size: 25px; /* Larger font size for description */
+            margin: 20px auto; /* Center the description */
+            max-width: 80%; /* Limit the width of the description */
+        }
+        #workflow-image {
+            max-width: 80%; /* Make the workflow image smaller */
+            display: block; /* Center-align the image */
+            margin: 20px auto; /* Center the image */
+        }
+        #workflow-title {
+            margin-left: 30px; /* Add left margin of 30px */
+            font-weight: bold;
+            align-self: flex-start;
+        }
+
+        #separator {
+            border-top: 1px solid lightgray;
+            margin: 10px 0;
+        }
+
+        #features-container {
+            display: flex;
+            justify-content: space-around; /* Distribute items evenly */
+            align-items: center;
+            margin-top: 20px;
+            padding: 20px 0;
+        }
+
+        .feature {
+            display: flex;
+            align-items: center;
+            text-align: center;
+	    margin-left: 30px;
+        }
+
+        .feature img {
+            max-width: 100px; /* Adjust the image size as needed */
+            height: 100px;
+            margin-right: 10px;
+        }
+
+        .feature p {
+            margin: 0;
+            font-size: 25px
+        }
+
+        .separator-line {
+            width: 1px;
+            height: 50px; /* Adjust height as needed */
+            background-color: lightgray;
+            margin: 0 20px; /* Adjust margin as needed */
+        }
+
+        .divider-card {
+            border: 1px solid lightgray;
+            padding: 20px;
+            margin-top: 20px;
+            margin-right: 100px; /* Adjust the margin between the cards */
+        }
+
+        .divider-card:last-child {
+            margin-right: 0; /* Remove margin from the last card */
+        }
+
+        .divider-card h3 {
+            font-size: 24px; /* Larger font size for the title */
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .card-content {
+            display: flex;
+            align-items: center;
+        }
+
+        .card-content img {
+            max-width: 60px; /* Adjust image size as needed */
+            height: auto;
+            margin-right: 10px;
+        }
+
+        .card-content p {
+            margin: 0;
+        }
+
+        .vertical-line {
+            width: 1px;
+            height: 50px; /* Adjust height as needed */
+            background-color: lightgray;
+            margin: 0 20px; /* Adjust margin as needed */
+        }
+
+        #features-title {
+            text-align: center;
+            margin-top: 40px; /* Adjust margin as needed */
+            font-size: 32px; /* Larger font size for the title */
+            font-weight: bold;
+        }
+
+        #features-cards {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+        }
+        .divider-card {
+            border: 1px solid lightgray;
+            padding: 20px;
+            margin-top: 20px;
+            flex: 1;
+            min-width: 200px;
+            max-width: 40%;
+            display: flex;
+            flex-direction: column; /* Align items vertically */
+            align-items: center; /* Center align content */
+        }
+
+        .features-card-container {
+            display: flex;
+            justify-content: space-between; /* Distribute items with space between them */
+            width: 20%; /* Force full width within the container */
+        }
+        #footer {
+            display: flex;
+            justify-content: center; /* Distribute items evenly */
+            align-items: center;
+            margin-top: 20px;
+            padding: 20px 0;
+            background-color: #f0f0f0; /* Light gray background */
+        }
+
+        .footer-icon img {
+            max-width: 40px; /* Adjust image size as needed */
+            height: auto;
+            margin-right: 10px;
+        }
+        .footer-icons-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 30px;
+        }
+        #copyright {
+            margin: 0;
+            font-size: 14px;
+            color: gray;
+        }
+        .wider-card {
+            flex: 1;
+            min-width: 200px;
+            max-width: 40%;
+        }
+        .footer-icon {
+            max-width: 40px;
+            height: auto;
+            margin-right: 30px;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="header">
+        <img id="logo" src="https://i.ibb.co/RHqTp6t/hupta-logo.png" alt="Logo">
+        <h1 id="title">Human Pan Transcriptome Atlas Profile</h1>
+    </div>
+    <div id="separator"></div>
+    <h2 id="features-title">About Our Web App</h2> 
+    <p id="description">HUPTA profile offers a comprehensive Human Pan Transcriptome Atlas derived from a compilation of 46,813 human RNA-seq samples sourced from GEO, GTEx, and TCGA databases.HUPTA profile enables users to explore tissue specificity, housekeeping genes, and consecutively expressed genes. Scores for housekeeping and tissue-specific genes are provided, and researchers can seamlessly access and download data for around 30 different tissues. Our user-friendly interface empowers researchers to effortlessly investigate gene profiles and tissue-specific genes, eliminating the need for coding expertise.</p>
+    <div id="separator"></div>
+    <h2 id="features-title">Workflow</h2> 
+    <img id="workflow-image" src="https://i.ibb.co/XV51vrN/workflow1.png"  alt="Workflow">
+
+    <div id="separator"></div>
+    <h2 id="features-title">Data Distribution</h2> 
+    <div id="features-container">
+        <div class="feature">
+            <img src="https://i.ibb.co/LN7qwnb/database-logo.png" alt="Database">
+            <div class="separator-line"></div>
+            <p>3 Database</p>
+        </div>
+        <div class="feature">
+            <img src="https://i.ibb.co/QjnMVB1/cell-logo.png" alt="Samples">
+            <div class="separator-line"></div>
+            <p>46,813 Samples</p>
+        </div>
+        <div class="feature">
+            <img src="https://i.ibb.co/tXQqSpg/tissue-logo.png" alt="Tissues">
+            <div class="separator-line"></div>
+            <p>30 Tissues</p>
+        </div>
+        <div class="feature">
+            <img src="https://i.ibb.co/XscCFtS/gene-logo.png"  alt="Gene">
+            <div class="separator-line"></div>
+            <p>19,151 Genes</p>
+        </div>
+    </div>
+
+    <div id="separator"></div>
+
+
+    <h2 id="features-title">Features</h2>
+
+    <div id="features-cards">
+        <div class="divider-card">
+            <h3>Data Viewer</h3>
+            <div class="card-content">
+                <img src="https://i.ibb.co/WHFcF30/camera-logo.png" alt="Data Viewer">
+                <div class="vertical-line"></div>
+                <p>View and explore genes</p>
+            </div>
+        </div>
+
+        <div class="divider-card">
+            <h3>Data Download</h3>
+            <div class="card-content">
+                <img src="https://i.ibb.co/sgpsq8R/download-logo.png"  alt="Data Download">
+                <div class="vertical-line"></div>
+                <p> Download gene set with adjustment parameters related to tissue specificity or housekeeping. </p>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="footer">
+        <div class="footer-icons-container">
+            <div class="footer-icon">
+                <a href="https://github.com/Park-JungJoon/Human-transcriptome-atlas"><img src= "https://i.ibb.co/WvM9Z1r/github-logo.png" alt="Icon A"></a>
+            </div>
+            <div class="footer-icon">
+                <a href="mailto:cypark310@korea.ac.kr"><img src="https://i.ibb.co/4FV4sZs/email-logo.webp" alt="Icon B"></a>
+            </div>
+            <div class="footer-icon">
+                <a href="http://compbio.korea.ac.kr/csbl/topics.html"><img src="https://i.ibb.co/rwtZHsN/csbl-logo.png" alt="Icon C"></a>
+            </div>
+            <!-- Add the copyright text here -->
+            <p id="copyright">
+                &copy; 2023 CSBL, Korea University
+            </p>
+        </div>
+    </div>
+</body>
+</html>
+
