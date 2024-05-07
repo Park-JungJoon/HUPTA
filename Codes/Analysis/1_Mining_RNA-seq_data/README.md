@@ -25,14 +25,10 @@ wget https://storage.googleapis.com/adult-gtex/annotations/v7/metadata-files/GTE
 + Extract case id from json file using gdc-client to collect gene count table.
 
 ~~~
-import os
-import json
-with open ('./tcga_file.json') as f:
-    file = json.load(f)
-for i in range(len(file)):
-    os.system("./gdc-client download %s" %file[i]['file_id'])
-
+gdc_client_tcga_download.py
 ~~~
+
+
 ### TCGA meta data mining
 + Download all available files's metadata in TCGA, with json format.
 
