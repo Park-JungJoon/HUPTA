@@ -35,3 +35,7 @@ gdc_client_tcga_download.py
 <br/>
 
 ## GEO (ARCHS4) data collecting
++ Both meta data and gene count table were obtained by parsing the h5 format file through the code below. 
+~~~
+handling_archs4.R
+~~~
