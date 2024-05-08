@@ -1,3 +1,11 @@
+# Normalization
++  [GeTMM](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-018-2246-7) was used as the normalization method.
++  To calculate GeTMM, we needed the gene length of each database, and we pre-calculated it by parsing the gtf for each database's gencode version.
++  Before using [GeTMM normalization code], Check requirements below.
+  +  The column in gene count table should be configured as Gene/Gene length/Sample 1/Sample 2/... 
+  +  Gene count table shold be a raw read count and shoud not be precdede by any processing such as gene filtering or tissue filtering.
+
+---------
 # Data intergrating
 
 ## Identify intersection gene 
