@@ -11,7 +11,7 @@ tissues = h5read(destination_file, "meta/sample/source_name_ch1")
 scp = h5read(destination_file, "meta/sample/singlecellprobability")
 
 meta_sample = cbind(samples,tissues,scp)
-write.table(meta_sample, file = 'archs4_meta.tsv', row.names = FALSE,quote = FALSE,sep='\t')
+write.table(meta_sample, file = 'raw_archs4_meta.tsv', row.names = FALSE,quote = FALSE,sep='\t')
 
 # Build Gene information table
 genes = h5read(destination_file, "meta/genes/gene_symbol")
