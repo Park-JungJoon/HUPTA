@@ -21,4 +21,4 @@
 + Manual matching was required and the tissues were categorized as described in [tissue_integrated.txt](HUPTA/Codes/Analysis/2_Intergrating_data_and_Normalization/tissue_integrated.txt).  
 + GEO categorizes tissues as described in the GEO description, we only used samples whose tissues in TCGA and GTEx matched the description exactly to get more accurate data.
 + Tissues with less than 100 samples for tissues present in the three databases were excluded from the analysis.
-+ [Using meta data file](HUPTA/Codes/Analysis/META_MAJOR.tsv)
++ [Meta data file](HUPTA/Codes/Analysis/META_MAJOR_TISSUE.tsv)
