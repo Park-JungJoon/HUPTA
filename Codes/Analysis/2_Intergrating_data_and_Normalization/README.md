@@ -1,10 +1,28 @@
 # Workflow
 Once all public data were downloaded, the raw count data first nomalized by sample and library sizes and integrated by gene name. Incosistency in human gene name among public data was resolved by .....
 
-# Normalization
+## requirements
+- R package
+```
+major          4                           
+minor          4.0                         
+year           2024                        
+month          04                          
+day            24                          
+svn rev        86474                       
+language       R                           
+version.string R version 4.4.0 (2024-04-24)
+nickname       Puppy Cup 
+```
+- RStudio
+  
+- Python 3.##
+
+  
+## Normalization
 +  Full name [GeTMM](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-018-2246-7) was used as the normalization method. This method is....(descrbe the basic algorithm of the method)...
 +  To calculate GeTMM, we needed the gene length of each database, and we pre-calculated it by parsing the gtf for each database's gencode version.
-+  Before using [GeTMM normalization code](HUPTA/Codes/Analysis/2_Intergrating_data_and_Normalization/GeTMM_calculate.R), Check requirements below.
++  Before using [GeTMM_calculate.R](HUPTA/Codes/Analysis/2_Intergrating_data_and_Normalization/GeTMM_calculate.R), Check requirements below.
   +  The column in gene count table should be configured as Gene/Gene length/Sample 1/Sample 2/... 
   +  Gene count table shold be a raw read count and shoud not be precdede by any processing such as gene filtering or tissue filtering.
 
