@@ -1,7 +1,12 @@
-# Download RNAseq data
-This directory contains scripts for collecting RNA-seq data (raw read counts) and metadata.
-<br/>
-## GTEx data collecting
+## This directory contains HOWTOs for collecting RNA-seq data (raw read counts) and metadata.
+We focused on three databases for collecting transcriptome data using on RNA-seq.
+1. GTEx
+2. ..
+3. ..
+   
+## GTEx database (as of Apr 2024) ver. 7??
+There are several raw data provided by the [GTEx database]() that is freely accessible. We downloaded the data directly from the database using ```wget``` command in the Linux environment.
+
 ### GTEx gene count table mining
 
 ~~~
@@ -16,6 +21,7 @@ wget https://storage.googleapis.com/adult-gtex/annotations/v7/metadata-files/GTE
 wget https://storage.googleapis.com/adult-gtex/annotations/v7/metadata-files/GTEx_v7_Annotations_SampleAttributesDS.txt
 wget https://storage.googleapis.com/adult-gtex/annotations/v7/metadata-files/GTEx_v7_Annotations_SubjectPhenotypesDS.txt
 ~~~
+
 
 <br/>
 
