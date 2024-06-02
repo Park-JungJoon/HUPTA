@@ -55,6 +55,12 @@ gdc_client_tcga_download.py
 <br/>
 
 ## GEO (ARCHS4) data collecting
++ After download ARCHS4 whole file with wget (v2.1.2), parsing code need to obtain gene count table and meta data.
+  
+~~~
+wget https://s3.dev.maayanlab.cloud/archs4/files/human_gene_v2.1.2.h5
+~~~
+
 + Both meta data and gene count table were obtained by parsing the h5 format file through the code below. 
 ~~~
 handling_archs4.R
