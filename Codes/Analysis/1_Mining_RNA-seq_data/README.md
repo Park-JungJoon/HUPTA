@@ -4,11 +4,11 @@
 ## This directory contains HOWTOs for collecting RNA-seq data (raw read counts) and metadata.
 We focused on three databases for collecting transcriptome data using on RNA-seq.
 1. GTEx
-2. ..
-3. ..
+2. TCGA
+3. GEO (ARCHS4)
    
-## GTEx database (as of Apr 2024) ver. 7??
-There are several raw data provided by the [GTEx database]() that is freely accessible. We downloaded the data directly from the database using ```wget``` command in the Linux environment.
+## GTEx database (as of Apr 2024) ver. 8 (2017.06)
+There are several raw data provided by the [GTEx database](https://gtexportal.org/home/) that is freely accessible. We downloaded the data directly from the database using ```wget``` command in the Linux environment.
 
 ### GTEx gene count table mining
 
