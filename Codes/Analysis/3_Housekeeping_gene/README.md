@@ -7,6 +7,9 @@
 
 ## Requirements
 
++ R version 4.4
++ Python version 3.9.13
++ R studio
 
 #### Expression level pre-filtering
 + we excluded from the analysis those genes whose average expression was lower than 1 GeTMM in the highest tissue, even in one database, to avoid severe noise.
