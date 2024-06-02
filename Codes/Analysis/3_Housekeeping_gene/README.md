@@ -17,3 +17,7 @@
    
 
 #### House keeping gene candidate in each database
++ Criteria : CV bottom 1st quartile, FC 4 pre-filtering
++ HKG candidate in each database, defining intersection HKG as a HUPTA house keeping gene
+
+![image](https://github.com/Park-JungJoon/HUPTA/assets/97942772/604d8379-8873-409e-97e0-8cab96ec1c45)
