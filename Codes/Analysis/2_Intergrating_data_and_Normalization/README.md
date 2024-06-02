@@ -3,14 +3,7 @@ Once all public data were downloaded, the raw count data first nomalized by samp
 
 ## requirements
 - R package
-```
-major          4                           
-minor          4.0                         
-year           2024                        
-month          04                          
-day            24                          
-svn rev        86474                       
-language       R                           
+``                         
 version.string R version 4.4.0 (2024-04-24)
 nickname       Puppy Cup 
 ```
