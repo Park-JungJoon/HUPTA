@@ -1,5 +1,9 @@
 # Workflow
-# 친절한 절차 설명과 함께 다운로드받은 데이터의 기초통계와 함께 링크를 넣고 업데이트하세요
+
+1. Raw read count table download
+2. Meta data download
+3. Meta data manual curation
+
 
 ## This directory contains HOWTOs for collecting RNA-seq data (raw read counts) and metadata.
 We focused on three databases for collecting transcriptome data using on RNA-seq.
@@ -7,7 +11,7 @@ We focused on three databases for collecting transcriptome data using on RNA-seq
 2. TCGA
 3. GEO (ARCHS4)
    
-## GTEx database (as of Apr 2024) ver. 8 (2017.06)
+## GTEx database (V8 2017.06)
 There are several raw data provided by the [GTEx database](https://gtexportal.org/home/) that is freely accessible. We downloaded the data directly from the database using ```wget``` command in the Linux environment.
 
 ### GTEx gene count table mining
