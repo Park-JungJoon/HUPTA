@@ -2,7 +2,14 @@
 
 1. Raw read count table download
 2. Meta data download
-3. Meta data manual curation
+
+
+Database	|Samples	|Gene Annotation Version	|Protein Coding Gene|	Non-Protein Coding Gene|	Total Gene|	Expression filtered gene	|Metadata	|Annotation program
+-|-|-|-|-|-|-|-|-
+GTEx|	17,382	|26|	19,291|	35,910|	56,201|	18,217	|Tissue, Sex, Age	|STAR
+TCGA|	22,018	|36|	19,962|	40,699|	60,661|	18,189	|Tissue, Sex, Age|	STAR
+GEO	|12,393|	41	|19,598|	42,951	|62,540|	17,564	|Tissue|	Kallisto
+
 
 
 ## This directory contains HOWTOs for collecting RNA-seq data (raw read counts) and metadata.
