@@ -1,5 +1,5 @@
 # Workflow
-Once all public data were downloaded, the raw count data first nomalized by sample and library sizes and integrated by gene name. Incosistency in human gene name among public data was resolved by .....
+Once all public data were downloaded, the raw count data first nomalized by sample and library sizes and integrated by gene name. Incosistency in human gene name among public data was resolved by unifying gene symbol with ENSG IDs.
 
 ## requirements
 - R package
@@ -16,11 +16,12 @@ nickname       Puppy Cup
 ```
 - RStudio
   
-- Python 3.##
+- Python 3.9.13
 
   
 ## Normalization
-+  Full name [GeTMM](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-018-2246-7) was used as the normalization method. This method is....(descrbe the basic algorithm of the method)...
++  Gene length corrected trimmed mean of M-values [GeTMM](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-018-2246-7) was used as the normalization method
++  GeTMM calculate RPK with edgeR with gene length normalization, scaling with library size.
 +  To calculate GeTMM, we needed the gene length of each database, and we pre-calculated it by parsing the gtf for each database's gencode version.
 +  Before using [GeTMM_calculate.R](HUPTA/Codes/Analysis/2_Intergrating_data_and_Normalization/GeTMM_calculate.R), Check requirements below.
   +  The column in gene count table should be configured as Gene/Gene length/Sample 1/Sample 2/... 
