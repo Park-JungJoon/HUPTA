@@ -1,8 +1,7 @@
-# Description
 
-### This codes written for runnying shiny application.
-+ The most core code for running an app is app.py. 
-+ download_function.py and draw_fig.py are the code that is called from app.py. 
-+ HTML files are needed to decorate non-dynamic pages.
-+ Media contains the code that organizes the files.
-+ The dataframe TSV file is created by dataframe_saving.py, and then it works. This is omitted from this page for storage reasons.  
+## Analysis
+
+In the Analysis, the code for processing the data used in HUPTA is described in each step. There are 6 steps in total, and the final result of this step is mainly used in the Application. 
+
+## Application
+Application contains the shiny for python code to build HUPTA and the data required to configure the database. Users can build HUPTA locally through this code. 
