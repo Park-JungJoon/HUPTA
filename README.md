@@ -2,7 +2,7 @@
 Human transcriptome data have been accumulated in the public database such as [NCBI SRA](https://www.ncbi.nlm.nih.gov/sra). Although attempts to compile/integrate all availabe public human transcriptome data have been reported [[refs]](https://maayanlab.cloud/archs4/), compiling all available human transcriptome data is not an easy task because of various factors - instrumental development, sequencing and analysis platform, and metadata inconsistency (e.g. gene names/categories). We collected publicly available human transcriptome data and developed a web application, designated as HUman Pan-Transcriptome Atlas (HUPTA) for gene-wise analysis of human transcriptome. Key features of gene expression were inspected in terms of tissue-specificity and expression regulation (constitutive - housekeeping). [HUPTA]( https://ybq7u4-park-jungjoon.shinyapps.io/hupta/) is currently deployed on ```Shinyapp``` platform.
 
 ## Collected public transcriptome data
-1. Gene Expression Omnibus - [GEO](https://www.ncbi.nlm.nih.gov/geo/)
+1. [GEO](https://www.ncbi.nlm.nih.gov/geo/)
 2. [GTEx](https://gtexportal.org/home/)
 3. [TCGA](https://www.cancer.gov/ccg/research/genome-sequencing/tcga)
 
