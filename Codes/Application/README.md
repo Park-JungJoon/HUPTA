@@ -1,4 +1,4 @@
-### This codes written for runnying shiny application.
+### This codes written for running shiny application.
 + The most core code for running an app is app.py. 
 + download_function.py and draw_fig.py are the code that is called from app.py. 
 + HTML files are needed to decorate non-dynamic pages.
