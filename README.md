@@ -5,7 +5,6 @@ Human transcriptome data have been accumulated in the public database such as [N
 1. Gene Expression Omnibus - [GEO](https://www.ncbi.nlm.nih.gov/geo/)
 2. [GTEx](https://gtexportal.org/home/)
 3. [TCGA](https://www.cancer.gov/ccg/research/genome-sequencing/tcga)
-Each database...
 
 + The profile of a gene's tissue specificity, house keeping ability, and constitutive expression can be seen through a series of statistically calculated scores.
 + We collected 46,813 samples from three databases, GEO, GTEx, and TCGA, and obtained consensus on gene profiles.
