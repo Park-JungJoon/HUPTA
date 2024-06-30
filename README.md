@@ -12,6 +12,14 @@ Human transcriptome data have been accumulated in the public database such as [N
 
 ## Workflow
 
+![image](https://github.com/Park-JungJoon/HUPTA/assets/97942772/98093e7b-0b01-4d88-b599-36c2f0f6808b)
+
+Four main steps to creating a HUPTA.
+
++ Download RNA-seq samples from publicly available RNA-seq databases
++ Processing RNA-seq data (normalization, filtering, manual scripting, calculating statistical values that can indicate tissue specificity and housekeeping expression ability)
++ The values obtained in the previous step are expressed as reliable scores such as TS score and CS score through consensus analysis.
++ The web application was published through Shiny for python.
 
 ## Download HUPTA Dataset
 Fully combined dataset is accessible in [here](). Also, you can analyze and access [HUPTA](https://ybq7u4-park-jungjoon.shinyapps.io/hupta/) at the [```Shinyapp```](https://shiny.posit.co/py/) application. 
